@@ -1,0 +1,42 @@
+{
+  "name": "@janumedia/vue-lazy-image",
+  "version": "1.0.0",
+  "description": "Vue.js lazy image component",
+  "main": "dist/vue-lazy-image.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janumedia/vue-lazy-image.git"
+  },
+  "keywords": [
+    "vue",
+    "component",
+    "lazy image"
+  ],
+  "author": "I Nengah Januartha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/janumedia/vue-lazy-image/issues"
+  },
+  "homepage": "https://github.com/janumedia/vue-lazy-image#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.3.1",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "terser-webpack-plugin": "^1.2.1",
+    "vue": "^2.5.22",
+    "vue-loader": "^15.6.1",
+    "vue-template-compiler": "^2.5.22",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14",
+    "webpack-merge": "^4.2.1"
+  }
+}
