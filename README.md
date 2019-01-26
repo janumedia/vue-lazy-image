@@ -1,2 +1,2 @@
-# lazy-image-component
+# vue-lazy-image
 Vue Lazy Image  component
