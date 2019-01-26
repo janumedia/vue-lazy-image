@@ -25,3 +25,5 @@ export default {
 </template>
 ```
 
+## Polyfill
+> Although this component has fallback support to browser that no support `IntersectionObserver`, you still can implement `IntersectionObserver` polyfill from [this library](https://github.com/w3c/IntersectionObserver/tree/master/polyfill) to this [supported browser](https://github.com/w3c/IntersectionObserver/tree/master/polyfill#browser-support)
