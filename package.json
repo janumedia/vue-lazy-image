@@ -1,6 +1,6 @@
 {
   "name": "@janumedia/vue-lazy-image",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vue.js lazy image component",
   "main": "dist/vue-lazy-image.js",
   "scripts": {
