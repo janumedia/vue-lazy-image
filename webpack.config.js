@@ -57,7 +57,7 @@ module.exports = [
             path: path.join(__dirname, 'dist'),
             filename: 'vue-lazy-image.min.js',
             libraryTarget: 'window',
-            library: 'VueLazyImage'
+            library: 'LazyImage'
         }
     }),
     merge(config, {

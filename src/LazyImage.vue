@@ -12,7 +12,7 @@ let observer, options = {
 const registerImage = img => {
     //load image placeHolder first
     const image = new Image();
-    image.onload = () => {
+    image.onload = image.onerror = () => {
         if('IntersectionObserver' in window) registerObserver(img);
         //fallback if browser not support IntersectionObserver
         else registerScrollEvent(img);
