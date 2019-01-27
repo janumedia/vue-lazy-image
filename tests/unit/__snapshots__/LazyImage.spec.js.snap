@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LazyImage.vue should render LazyImage custom placeHolder 1`] = `<div class="lazy-image"><img src="custom-image-placeholder.jpg" alt="image title" data-src="image.jpg" data-pin-nopin="true"></div>`;
+
+exports[`LazyImage.vue should render LazyImage default 1`] = `<div class="lazy-image"><img src="assets/image-placeholder.svg" alt="image title" data-src="image.jpg" data-pin-nopin="true"></div>`;
