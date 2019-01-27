@@ -1,5 +1,5 @@
 <template>
-    <div class="lazy-image">
+    <div class="lazy-image" :style="`width:${width}px;`">
         <img :src="placeHolder" :alt="alt" :data-src="src" data-pin-nopin="true">
     </div>
 </template>
@@ -94,6 +94,7 @@ export default {
             type: String,
             required: true
         },
+        width: [Number, String],
         alt: {
             type: String,
             default: ''

@@ -18,15 +18,17 @@ const config = {
             {
                 test: /\.js$/,
                 exclude: /(node_modules)/,
-                use: [
-                    {
-                        loader: 'babel-loader'
-                    }
-                ]
+                loader: 'babel-loader'
             },
             {
                 test: /\.scss$/,
-                loaders: ['css-loader', 'sass-loader'],
+                use: [
+                    'vue-style-loader',
+                    'css-loader',
+                    {
+                        loader: 'sass-loader'
+                    }
+                ],
                 include: path.resolve(__dirname, 'src')
             }
         ]

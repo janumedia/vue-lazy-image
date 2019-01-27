@@ -30,4 +30,9 @@ describe('LazyImage.vue', () => {
         wrapper = createWrapper({...props, placeHolder: IMAGE_PLACEHOLDER});
         expect(wrapper.html()).toMatchSnapshot();
     });
+
+    it('should render LazyImage custom width', () => {
+        wrapper = createWrapper({...props, width: 300});
+        expect(wrapper.html()).toMatchSnapshot();
+    });
 })

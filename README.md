@@ -14,10 +14,10 @@ yarn add -D @janumedia/vue-lazy-image
 ### Browser
 ```
 <script src="https://unpkg.com/vue@2.5.22/dist/vue.min.js"></script>
-<script src="https://unpkg.com/@janumedia/vue-lazy-image@1.0.2/dist/vue-lazy-image.min.js"></script>
+<script src="https://unpkg.com/@janumedia/vue-lazy-image/dist/vue-lazy-image.min.js"></script>
 <script type="text/x-template" id="main">
   <div class="container">
-    <lazy-image src="your-image.jpg" placeHolder="your-placeholder-image.jpg" alt="My Imagea Title"/>
+    <lazy-image src="your-image.jpg" placeHolder="your-placeholder-image.jpg" width="300" alt="My Imagea Title"/>
   </div>
 </script>
 <script>
@@ -46,7 +46,7 @@ export default {
 <script>
 <template>
   <div>
-    <lazy-image src="your-image.jpg" placeHolder="your-placeholder-image.jpg" alt="My Image Title"/>
+    <lazy-image src="your-image.jpg" placeHolder="your-placeholder-image.jpg" width="300" alt="My Image Title"/>
   <div/>
 </template>
 ```
