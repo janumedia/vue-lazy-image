@@ -3,8 +3,6 @@
   "version": "1.0.3",
   "description": "Vue.js lazy image component",
   "main": "dist/vue-lazy-image.js",
-  "module": "dist/vue-lazy-image.js",
-  "browser": "dist/vue-lazy-image.min.js",
   "unpkg": "dist/vue-lazy-image.min.js",
   "files": [
     "dist/vue-lazy-image.js",
