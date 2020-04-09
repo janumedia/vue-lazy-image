@@ -15,26 +15,27 @@ yarn add -D @janumedia/vue-lazy-image
 ```
 <script src="https://unpkg.com/vue@2.5.22/dist/vue.min.js"></script>
 <script src="https://unpkg.com/@janumedia/vue-lazy-image/dist/vue-lazy-image.min.js"></script>
-<script type="text/x-template" id="main">
-  <div class="container">
-    <lazy-image src="your-image.jpg" placeHolder="your-placeholder-image.jpg" width="300" alt="My Imagea Title"/>
+<style>
+    .top {
+        width: 100%;
+        height: 100vh;
+    }
+</style>
+<body>
+  <div id="app">
+    <div class="top">
+        Scroll Down
+    </div>
+    <lazy-image src="your-image.jpg" placeholder="your-placeholder-image.jpg" width="300" alt="My Imagea Title"/>
   </div>
-</script>
-<script>
-  //register component
-  Vue.use(LazyImage)
-  
-  const main = {
-    template: '#main'
-  };
-  
-  new Vue({
-  el: '#app',
-  render(h) {
-    return h(main)
-  };
-})
-</script>
+  <script>
+    //register component
+    Vue.use(LazyImage);
+    new Vue({
+      el: '#app'
+    });
+  </script>
+</body>
 ```
 ### Node
 ```

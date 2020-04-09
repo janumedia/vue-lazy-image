@@ -1,6 +1,6 @@
 <template>
     <div class="lazy-image" :style="`width:${width}px;`">
-        <img :src="placeHolder" :alt="alt" :data-src="src" data-pin-nopin="true">
+        <img :src="placeholder" :alt="alt" :data-src="src" data-pin-nopin="true">
     </div>
 </template>
 <script>
@@ -99,10 +99,7 @@ export default {
             type: String,
             default: ''
         },
-        placeHolder: {
-            type: String,
-            default: 'assets/image-placeholder.svg'
-        }
+        placeholder: String
     },
     mounted() {
         registerImage(this.$el.querySelector('img'));
