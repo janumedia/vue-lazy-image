@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lazy Image Example</title>
+    <script src="https://unpkg.com/vue"></script>
+    <script src="/dist/vue-lazy-image.min.js"></script>
+    <style>
+        .top {
+            width: 100%;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <main id="sa">
+        <div class="top">
+            Scroll Down
+        </div>
+        <lazy-image src="https://durian.blender.org/wp-content/uploads/2009/10/sintel-wallpaper-dragon.jpg" placeholder="/dist/images/placeholder.svg" width="100%" alt="My Imagea Title"/>
+    </main>
+    <script>
+        Vue.use(LazyImage);
+        
+        new Vue({
+            el: '#sa',
+        });
+    </script>
+</body>
+</html>
