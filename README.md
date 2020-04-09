@@ -47,7 +47,7 @@ export default {
 <script>
 <template>
   <div>
-    <lazy-image src="your-image.jpg" placeHolder="your-placeholder-image.jpg" width="300" alt="My Image Title"/>
+    <lazy-image src="your-image.jpg" placeholder="your-placeholder-image.jpg" width="300" alt="My Image Title"/>
   <div/>
 </template>
 ```
